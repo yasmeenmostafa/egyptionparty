@@ -1,0 +1,92 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+header{
+    background-image: url("../events-heavenly-header.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.layer{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.layer h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.tomato{
+    background-color: rgb(230,130,133);
+}
+.gray{
+    background-color: rgb(204,204,204);
+}
+.singers p{
+    font-size: 14px;
+}
+.singers h3:hover{
+    cursor: pointer;
+}
+.join p{
+    font-size: 14px;
+
+}
+.join h2{
+    font-size: 35px;
+}
+.join{
+    margin-top: 80px;
+}
+.singer{
+    display: none;
+}
+.numbers{
+    background-image: url("../invitation-2508607__340.jpg");
+    width: 100%;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border:1px solid #999999;
+    color:#999999;
+    margin: 5px;
+}
+.sidebar{
+    position: absolute ;
+    left:-250px;
+    z-index: 2222222222222;
+}
+.sidelist{
+  background-color: rgb(65,70,88);
+  height: 100vh;
+  position: relative;
+  /* display: none; */
+ 
+  
+ 
+}
+.closeicon{
+    position:absolute;
+    right:15px;
+    top:10px;
+    transition: color 0.5s;
+}
+.sidelist a{
+    transition: color 0.5s;
+
+}
+.sidelist a:hover{
+    color: rgb(113, 29, 32) !important;
+    cursor:pointer;
+
+}
+.closeicon:hover{
+    color: rgb(129, 27, 31) !important;
+    cursor:pointer;
+}
+.settingicon:hover{
+    cursor:pointer;
+
+}
+
